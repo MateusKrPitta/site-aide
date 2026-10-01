@@ -1,0 +1,89 @@
+:root {
+  /* Colors - Executive Marsala Consulting Design System */
+  --color-primary: #813646;
+  --color-primary-container: #9e4d5d;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #ffdde1;
+  --color-primary-fixed: #ffd9de;
+  --color-primary-fixed-dim: #ffb2be;
+  --color-on-primary-fixed: #3e0215;
+  --color-on-primary-fixed-variant: #772e3e;
+
+  --color-secondary: #6a5c49;
+  --color-secondary-container: #f3e0c7;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #70624f;
+  --color-secondary-fixed: #f3e0c7;
+  --color-secondary-fixed-dim: #d6c4ac;
+  --color-on-secondary-fixed: #241a0b;
+  --color-on-secondary-fixed-variant: #514533;
+
+  --color-tertiary: #7c3948;
+  --color-tertiary-container: #98515f;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #ffdde1;
+  --color-tertiary-fixed: #ffd9de;
+  --color-tertiary-fixed-dim: #ffb2be;
+  --color-on-tertiary-fixed: #3b0616;
+
+  --color-surface: #fbf8ff;
+  --color-surface-dim: #dbd9e1;
+  --color-surface-bright: #fbf8ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f5f2fb;
+  --color-surface-container: #efecf5;
+  --color-surface-container-high: #eae7ef;
+  --color-surface-container-highest: #e4e1ea;
+  
+  --color-on-surface: #1b1b21;
+  --color-on-surface-variant: #534345;
+  --color-inverse-surface: #303036;
+  --color-inverse-on-surface: #f2eff8;
+
+  --color-outline: #867274;
+  --color-outline-variant: #d9c1c3;
+  --color-surface-tint: #944555;
+  --color-success: #1b873f;
+  --color-success-bg: #e6f7ec;
+
+  /* Typography */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Spacing */
+  --space-xs: 0.25rem;   /* 4px */
+  --space-sm: 0.5rem;    /* 8px */
+  --space-md: 1rem;      /* 16px */
+  --space-lg: 1.5rem;    /* 24px */
+  --space-xl: 2.5rem;    /* 40px */
+  --space-2xl: 4rem;     /* 64px */
+  --space-3xl: 6rem;     /* 96px */
+
+  --container-max-width: 1280px;
+  --gutter: 1.5rem;
+
+  /* Border Radii */
+  --radius-sm: 0.25rem;  /* 4px */
+  --radius-md: 0.5rem;   /* 8px */
+  --radius-lg: 0.75rem;  /* 12px */
+  --radius-xl: 1rem;     /* 16px */
+  --radius-2xl: 1.5rem;  /* 24px */
+  --radius-full: 9999px;
+
+  /* Elevations */
+  --shadow-sm: 0 1px 3px rgba(30, 30, 36, 0.05), 0 1px 2px rgba(30, 30, 36, 0.03);
+  --shadow-md: 0 4px 20px -2px rgba(158, 77, 93, 0.06), 0 2px 8px -1px rgba(30, 30, 36, 0.04);
+  --shadow-lg: 0 12px 32px -4px rgba(110, 45, 60, 0.12), 0 4px 12px -2px rgba(30, 30, 36, 0.05);
+  --shadow-xl: 0 20px 48px -6px rgba(129, 54, 70, 0.20), 0 8px 24px -4px rgba(30, 30, 36, 0.08);
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.6);
+  --glass-blur: blur(16px);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
