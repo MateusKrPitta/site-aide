@@ -11,6 +11,7 @@ import { renderFaqSection, initFaqEvents } from './components/FaqSection';
 import { renderDiagnosticForm, initDiagnosticFormEvents } from './components/DiagnosticForm';
 import { renderServicesPage, initServicesPageEvents } from './components/ServicesPage';
 import { renderContactPage, initContactPageEvents } from './components/ContactPage';
+import { renderCaptureLandingPage, initCaptureLandingPageEvents } from './components/CaptureLandingPage';
 import { renderFooter, initFooterEvents } from './components/Footer';
 import { renderWhatsAppFloating } from './components/WhatsAppFloating';
 import { renderStickyConversionBar, initStickyConversionBarEvents } from './components/StickyConversionBar';
@@ -31,6 +32,17 @@ export class AppRouter {
   private static handleRoute(): void {
     const hash = window.location.hash || '#inicio';
     const mainSectionHash = hash.split('?')[0];
+
+    const isCapturePage = ['#captura', '#lp', '#diagnostico-vip', '#funil', '#conversao'].includes(mainSectionHash);
+
+    if (isCapturePage) {
+      // 100% Distraction-Free High-Converting Standalone Funnel
+      this.appElement.innerHTML = renderCaptureLandingPage();
+      initCaptureLandingPageEvents();
+      initMotionAnimations();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
 
     let contentHtml = '';
 
