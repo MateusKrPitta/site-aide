@@ -5,6 +5,8 @@ export interface SolutionArea {
   subtitle: string;
   description: string;
   icon: string;
+  imageUrl?: string;
+  category?: string;
   isFeatured?: boolean;
   deliverables: string[];
   ctaText: string;

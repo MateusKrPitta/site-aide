@@ -29,7 +29,7 @@ export function renderNavbar(currentPath = '#inicio'): string {
           <!-- Desktop Navigation -->
           <nav class="hidden xl:flex items-center gap-6 2xl:gap-8">
             ${NAV_ROUTES.map(route => {
-              const isActive = currentPath === route.path;
+              const isActive = currentPath === route.path || (route.path === '#solucoes-servicos' && (currentPath === '#solucoes-servicos' || currentPath === '#servicos'));
               return `
                 <a 
                   href="${route.path}" 
@@ -65,15 +65,18 @@ export function renderNavbar(currentPath = '#inicio'): string {
 
       <!-- Mobile Drawer -->
       <div class="hidden xl:hidden fixed top-20 left-0 w-full bg-surface border-b border-outline-variant/40 shadow-featured px-6 py-6 flex-col gap-3 z-40 max-h-[calc(100vh-80px)] overflow-y-auto" id="mobile-drawer">
-        ${NAV_ROUTES.map(route => `
-          <a 
-            href="${route.path}" 
-            class="font-sans text-base font-semibold py-2.5 border-b border-outline-variant/20 transition-colors ${currentPath === route.path ? 'text-primary' : 'text-on-surface hover:text-primary'}"
-            data-nav
-          >
-            ${route.label}
-          </a>
-        `).join('')}
+        ${NAV_ROUTES.map(route => {
+          const isActive = currentPath === route.path || (route.path === '#solucoes-servicos' && (currentPath === '#solucoes-servicos' || currentPath === '#servicos'));
+          return `
+            <a 
+              href="${route.path}" 
+              class="font-sans text-base font-semibold py-2.5 border-b border-outline-variant/20 transition-colors ${isActive ? 'text-primary font-bold' : 'text-on-surface hover:text-primary'}"
+              data-nav
+            >
+              ${route.label}
+            </a>
+          `;
+        }).join('')}
         <div class="pt-3 flex flex-col gap-3">
           <a href="https://wa.me/5567996763435" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 w-full py-3 rounded-lg bg-secondary-container text-on-secondary-container font-sans text-sm font-bold">
             <span class="material-symbols-outlined text-[20px]">chat</span>

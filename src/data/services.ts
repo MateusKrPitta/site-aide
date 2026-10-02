@@ -2,169 +2,231 @@ import { SolutionArea } from '../types';
 
 export const SOLUTIONS_DATA: SolutionArea[] = [
   {
-    id: 'marketing',
-    pillarNumber: 'Área 01',
+    id: 'marketing-digital',
+    pillarNumber: 'Serviço 01',
     title: 'Marketing Digital',
-    subtitle: 'Posicionamento magnético, autoridade digital e engajamento qualificado para sua marca.',
-    description: 'Não realizamos apenas postagens em redes sociais: construímos ativos de autoridade, estruturando estratégias completas de aquisição de clientes e retenção para empresas e negócios rurais que desejam ser referência.',
+    subtitle: 'Planejamento estratégico, identidade visual e presença ativa nas redes sociais.',
+    description: 'Desenvolvemos estratégias integradas para posicionar sua empresa e atrair clientes qualificados, fortalecendo sua marca nos canais digitais com autoridade e conversão consistente.',
     icon: 'campaign',
+    category: 'Presença & Marca',
+    imageUrl: 'https://aidesolucoes.com.br/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-19-at-18.13.21-768x768.jpeg',
     deliverables: [
-      'Planejamento e direcionamento de mídias sociais',
-      'Construção de Marca – Branding executivo',
-      'Criação de Identidade Visual completa',
-      'Treinamento de comunicação & Curso de Oratória',
-      'Design para Social Media & Edição de Reels'
+      'Planejamento e direcionamento estratégico',
+      'Gestão de Mídias Sociais ativa',
+      'Desenvolvimento de sites corporativos',
+      'Desenvolvimento de logos e marcas',
+      'Identidade Visual completa & Manual da Marca',
+      'Cartão Digital Interativo com links dinâmicos',
+      'Criação de Vídeos Institucionais e Comerciais'
     ],
-    ctaText: 'Contratar Agora & Orçar',
-    whatsappMessage: 'Olá! Gostaria de contratar soluções em Marketing Digital e Branding para a minha empresa.',
+    ctaText: 'Contratar Marketing Digital',
+    whatsappMessage: 'Olá! Gostaria de contratar soluções em Marketing Digital e Gestão de Mídias Sociais com a Aidê Soluções.',
     deliverableCards: [
-      { icon: 'explore', title: 'Planejamento Estratégico', description: 'Direcionamento de público, canais e metas assertivas.' },
-      { icon: 'forum', title: 'Gestão de Mídias Sociais', description: 'Calendário editorial ativo e engajamento qualificado.' },
-      { icon: 'palette', title: 'Identidade Visual & Logos', description: 'Branding refinado com manual de identidade visual exclusivo.' },
-      { icon: 'videocam', title: 'Vídeos Institucionais', description: 'Produções dinâmicas e reels de alta conversão mercadológica.' },
-      { icon: 'contact_page', title: 'Cartão Digital Interativo', description: 'Links diretos para WhatsApp, geolocalização e portfólio num clique.' }
+      { icon: 'explore', title: 'Planejamento & Direcionamento', description: 'Metas claras, estudo de público-alvo e canais de maior retorno.' },
+      { icon: 'forum', title: 'Gestão de Redes Sociais', description: 'Publicações com posicionamento magnético e engajamento qualificado.' },
+      { icon: 'palette', title: 'Identidade Visual & Logos', description: 'Branding profissional com criação de logotipos e paletas exclusivas.' },
+      { icon: 'videocam', title: 'Vídeos Institucionais & Comerciais', description: 'Produção em vídeo que gera credibilidade e desejo imediato.' },
+      { icon: 'contact_page', title: 'Cartão Digital Interativo', description: 'Acesso a WhatsApp, redes e catálogo em um único toque.' }
     ],
     metrics: [
-      { value: '+1.2M', label: 'Visualizações Geradas' },
-      { value: '85%', label: 'Taxa de Retenção' },
-      { value: '4.9/5', label: 'Índice de Satisfação' }
+      { value: '+1.5M', label: 'Visualizações Geradas' },
+      { value: '88%', label: 'Taxa de Retenção' },
+      { value: '4.9/5', label: 'Avaliação de Clientes' }
     ]
   },
   {
-    id: 'dho',
-    pillarNumber: 'Pilar Fundamental',
-    title: 'DHO - Gestão de Pessoas',
-    subtitle: 'Estruturação de talentos, cultura forte e liderança de alta performance.',
-    description: 'Alinhamento integral entre o capital humano e as metas estratégicas da organização, transformando o clima corporativo e desenvolvendo líderes preparados para tomar decisões.',
-    icon: 'groups',
+    id: 'saude-clinicas-hospitais',
+    pillarNumber: 'Área Especializada',
+    title: 'DHO & Treinamentos para Saúde, Clínicas e Hospitais',
+    subtitle: 'Atendimento humanizado, empatia, fidelização e mentoria para equipes e gestores da saúde.',
+    description: 'Capacitações comportamentais e educação continuada focadas na realidade de clínicas, laboratórios, farmácias e hospitais. Unimos acolhimento humanizado, segurança do paciente, recepção eficiente e liderança médica/gestora de alta performance.',
+    icon: 'medical_services',
+    category: 'Saúde & Clínicas',
     isFeatured: true,
+    imageUrl: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1000&auto=format&fit=crop',
     deliverables: [
-      'Recrutamento e Seleção Estratégica com Grafologia',
-      'Palestras de Integração de Colaboradores',
-      'Mentorias de Liderança Executiva',
-      'Curso de Gestão de Longa Duração',
-      'Plano de Cargos, Salários e Avaliação 360°'
+      'Treinamentos, educação continuada e capacitações comportamentais para a área da saúde',
+      'Atendimento humanizado e empatia em ambientes de saúde',
+      'Comunicação Assertiva, Segurança do paciente e fidelização',
+      'Gerenciamento de conflitos e situações críticas',
+      'Venda consultiva e ética na saúde',
+      'Captação, recepção e agendamento eficiente com foco em relacionamento com os pacientes',
+      'Fidelização e relacionamento pós-consulta',
+      'Mentoria para equipes e gestores de clínicas, laboratórios, farmácias e hospitais',
+      'Mentoria de liderança para diretores, médicos e coordenadores'
     ],
-    ctaText: 'Contratar DHO & Liderança',
-    whatsappMessage: 'Olá! Gostaria de contratar a consultoria em DHO e Gestão de Pessoas da Aidê.',
+    ctaText: 'Contratar Soluções para Saúde & Clínicas',
+    whatsappMessage: 'Olá! Gostaria de agendar uma reunião sobre treinamentos em Atendimento Humanizado e Gestão para Clínicas/Hospitais com a Aidê Soluções.',
     deliverableCards: [
-      { icon: 'psychology', title: 'Grafologia & Seleção', description: 'Análise comportamental profunda para contratações cirúrgicas.' },
-      { icon: 'co_present', title: 'Integração de Equipes', description: 'Alinhamento de cultura e pertencimento desde o 1º dia.' },
-      { icon: 'military_tech', title: 'Mentoria de Liderança', description: 'Capacitação prática para gestores, diretores e sucessores.' },
-      { icon: 'account_tree', title: 'Plano de Cargos & Salários', description: 'Estrutura de remuneração meritocrática e retenção de talentos.' }
+      { icon: 'favorite', title: 'Atendimento Humanizado & Empatia', description: 'Acolhimento de excelência e sensibilidade em ambientes de saúde.' },
+      { icon: 'verified_user', title: 'Comunicação Assertiva & Segurança', description: 'Prevenção de ruídos, segurança clínica do paciente e fidelização mútua.' },
+      { icon: 'crisis_alert', title: 'Gestão de Conflitos & Crises', description: 'Mediação emocional e postura ética em situações de alta pressão.' },
+      { icon: 'calendar_month', title: 'Recepção & Agendamento Eficiente', description: 'Otimização de fluxos, redução de faltas (no-show) e encantamento pós-consulta.' },
+      { icon: 'local_hospital', title: 'Mentoria para Gestores de Saúde', description: 'Capacitação executiva para líderes de clínicas, laboratórios, farmácias e hospitais.' }
     ],
     metrics: [
-      { value: '-65%', label: 'Turnover em 6 Meses' },
+      { value: '+98%', label: 'Satisfação de Pacientes (NPS)' },
+      { value: '-45%', label: 'Redução de Faltas/No-Show' },
+      { value: '100%', label: 'Atendimento Humanizado' }
+    ]
+  },
+  {
+    id: 'palestras-e-cursos',
+    pillarNumber: 'Serviço 02',
+    title: 'Palestras e Cursos',
+    subtitle: 'Capacitação prática para líderes, gestores e equipes com habilidades estratégicas.',
+    description: 'Nosso curso de longa duração para líderes é desenvolvido para capacitar os profissionais que ocupam cargos de liderança, com habilidades estratégicas e de gestão. Com uma abordagem prática e dinâmica, o curso ajuda a aprimorar a liderança, a tomada de decisão e a resolução de problemas, capacitando os líderes a enfrentar os desafios de forma mais eficaz.',
+    icon: 'co_present',
+    category: 'Desenvolvimento Humano',
+    imageUrl: 'https://aidesolucoes.com.br/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-19-at-18.13.23-1024x1024.jpeg',
+    deliverables: [
+      'Curso de longa duração para líderes e gestores',
+      'Palestras magnéticas de motivação e alta performance',
+      'Desenvolvimento de habilidades estratégicas e de gestão',
+      'Aprimoramento da liderança e tomada de decisão',
+      'Treinamento prático de resolução rápida de problemas',
+      'Workshops in-company customizados para a sua empresa',
+      'Formações para sucessores e diretores'
+    ],
+    ctaText: 'Contratar Palestras e Cursos',
+    whatsappMessage: 'Olá! Gostaria de mais informações e proposta para Palestras e Cursos de Liderança da Aidê Soluções.',
+    deliverableCards: [
+      { icon: 'school', title: 'Curso de Líderes', description: 'Capacitação de longa duração focada em tomada de decisão e gestão sólida.' },
+      { icon: 'mic', title: 'Palestras Impactantes', description: 'Encontros motivadores que elevam o engajamento e a postura do time.' },
+      { icon: 'psychology_alt', title: 'Resolução de Problemas', description: 'Metodologias práticas para enfrentar desafios diários com eficácia.' },
+      { icon: 'groups_2', title: 'Workshops Corporativos', description: 'Dinâmicas aplicadas diretamente à realidade da sua empresa.' }
+    ],
+    metrics: [
+      { value: '+5.000', label: 'Líderes Impactados' },
+      { value: '98%', label: 'Aprovação de Alunos' },
+      { value: '10+ Anos', label: 'Experiência em Palco' }
+    ]
+  },
+  {
+    id: 'sites-e-lojas',
+    pillarNumber: 'Serviço 03',
+    title: 'Desenvolvimento de Sites & Lojas',
+    subtitle: 'Criação de sites e lojas virtuais totalmente personalizados, modernos e velozes.',
+    description: 'Construímos plataformas digitais completas que valorizam a identidade da sua marca, conectam-se às suas redes e facilitam o contato imediato de clientes em computadores e celulares.',
+    icon: 'devices',
+    category: 'Tecnologia & Web',
+    imageUrl: 'https://aidesolucoes.com.br/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-19-at-18.13.24-768x768.jpeg',
+    deliverables: [
+      'Criação de Sites Institucionais modernos',
+      'Lojas Profissionais & E-commerces completos',
+      'Formulários de Contato e captação integrada',
+      'Design totalmente personalizado para a sua marca',
+      'Imagens e Vídeos Ilimitados em alta definição',
+      'Conexão direta com Redes Sociais e WhatsApp',
+      'Portfólios interativos para apresentação de serviços'
+    ],
+    ctaText: 'Contratar Criação de Sites',
+    whatsappMessage: 'Olá! Gostaria de solicitar um orçamento para Criação de Site / Loja Virtual com a Aidê Soluções.',
+    deliverableCards: [
+      { icon: 'web', title: 'Criação de Sites', description: 'Páginas rápidas, com excelente experiência do usuário e design limpo.' },
+      { icon: 'storefront', title: 'Lojas Profissionais', description: 'E-commerce estruturado para vender seus produtos 24 horas por dia.' },
+      { icon: 'mail', title: 'Formulários Inteligentes', description: 'Receba leads e pedidos diretamente no seu e-mail e WhatsApp.' },
+      { icon: 'perm_media', title: 'Portfólios & Catálogos', description: 'Apresentação refinada de seus projetos, obras e serviços executados.' }
+    ],
+    metrics: [
+      { value: '< 1.2s', label: 'Carregamento Rápido' },
+      { value: '100%', label: 'Mobile Responsivo' },
+      { value: 'Top SEO', label: 'Indexação no Google' }
+    ]
+  },
+  {
+    id: 'mentorias',
+    pillarNumber: 'Serviço 04',
+    title: 'Mentorias Individuais & Negócios',
+    subtitle: 'Orientação personalizada com profissionais experientes para acelerar sua carreira e empresa.',
+    description: 'Nossas mentorias são desenvolvidas por profissionais experientes, que trabalham em conjunto com você para identificar suas necessidades individuais e ajudá-lo a alcançar seus objetivos de carreira e liderança. Com uma abordagem personalizada, oferecemos orientação individualizada e suporte contínuo para que você possa crescer e evoluir em sua trajetória, não só profissional, mas pessoal.',
+    icon: 'psychology',
+    category: 'Desenvolvimento Humano',
+    imageUrl: 'https://aidesolucoes.com.br/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-19-at-18.13.24-1-1024x1024.jpeg',
+    deliverables: [
+      'Orientação individualizada e suporte contínuo',
+      'Diagnóstico personalizado de necessidades e metas',
+      'Aceleração de carreira e liderança executiva',
+      'Mentorias para mulheres em posições de destaque',
+      'Direcionamento para empreendedores iniciantes e expansão',
+      'Evolução integrada: profissional e pessoal',
+      'Plano de ação prático com métricas de acompanhamento'
+    ],
+    ctaText: 'Contratar Mentoria Executiva',
+    whatsappMessage: 'Olá! Gostaria de agendar uma sessão de Mentoria Individual ou Empresarial com a Aidê Soluções.',
+    deliverableCards: [
+      { icon: 'person_pin', title: 'Abordagem Personalizada', description: 'Mapeamento das suas fortalezas e pontos de melhoria com suporte constante.' },
+      { icon: 'auto_graph', title: 'Carreira & Liderança', description: 'Estratégias de posicionamento de alto valor no mercado corporativo.' },
+      { icon: 'woman', title: 'Mentoria para Mulheres', description: 'Programa focado em liderança feminina, autonomia e gestão de negócios.' },
+      { icon: 'emoji_objects', title: 'Novos Empreendedores', description: 'Validação de ideias, processos e estruturação inicial sem desperdício.' }
+    ],
+    metrics: [
+      { value: '+94%', label: 'Evolução de Metas' },
+      { value: '100%', label: 'Confidencialidade' },
+      { value: '1:1', label: 'Atendimento Direto' }
+    ]
+  },
+  {
+    id: 'qualificacao-de-lideres',
+    pillarNumber: 'Serviço 05',
+    title: 'Qualificação de Líderes e Equipes',
+    subtitle: 'Treinamento focado em Soft Skills, comunicação eficaz, coesão e resolução de conflitos.',
+    description: 'Acreditamos que equipes fortes e coesas são essenciais para o sucesso das empresas. Por isso, nossa qualificação de equipes é focada no desenvolvimento de habilidades comportamentais, como comunicação eficaz, liderança, trabalho em equipe e resolução de conflitos. Com treinamentos práticos e dinâmicos, ajudamos a transformar a dinâmica de sua equipe, proporcionando maior produtividade e satisfação.',
+    icon: 'groups',
+    category: 'Desenvolvimento Humano',
+    imageUrl: 'https://aidesolucoes.com.br/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-19-at-18.13.25-768x768.jpeg',
+    deliverables: [
+      'Desenvolvimento intensivo de Soft Skills (comportamentais)',
+      'Treinamento de comunicação assertiva e não violenta',
+      'Fortalecimento do trabalho em equipe e sinergia',
+      'Técnicas de mediação e resolução de conflitos',
+      'Aumento expressivo de produtividade e clima organizacional',
+      'Integração de novos colaboradores e cultura de pertencimento',
+      'Análise comportamental e grafologia aplicada'
+    ],
+    ctaText: 'Contratar Qualificação de Equipes',
+    whatsappMessage: 'Olá! Gostaria de uma proposta para Qualificação de Líderes e Equipes corporativas com a Aidê Soluções.',
+    deliverableCards: [
+      { icon: 'record_voice_over', title: 'Comunicação Eficaz', description: 'Elimine ruídos de comunicação interna e alinhe expectativas de entrega.' },
+      { icon: 'diversity_3', title: 'Trabalho em Equipe', description: 'União de propósitos para transformar grupos em times de alta performance.' },
+      { icon: 'handshake', title: 'Resolução de Conflitos', description: 'Ferramentas dinâmicas para transformar desavenças em colaboração.' },
+      { icon: 'sentiment_satisfied', title: 'Clima & Satisfação', description: 'Ambiente saudável que retém talentos e reduz turnover sensivelmente.' }
+    ],
+    metrics: [
+      { value: '-65%', label: 'Turnover Reduzido' },
       { value: '+92%', label: 'Engajamento Interno' },
-      { value: '100%', label: 'Segurança em Decisões' }
+      { value: '100%', label: 'Prático e Dinâmico' }
     ]
   },
   {
-    id: 'vendas',
-    pillarNumber: 'Área 03',
-    title: 'Vendas & Comercial',
-    subtitle: 'Capacitação intensiva de times comerciais e processos de conversão acelerada.',
-    description: 'Reestruturação completa da esteira de vendas, processos de abordagem, follow-up, quebra de objeções e acompanhamento de metas com CRM e rituais de gestão.',
-    icon: 'trending_up',
-    deliverables: [
-      'Treinamento Básico para Vendedores',
-      'Treinamento de Técnicas Avançadas de Fechamento',
-      'Estruturação do Processo Comercial e CRM',
-      'Roteiros e Scripting de Prospecção Ativa',
-      'Gestão e Acompanhamento de Metas de Venda'
-    ],
-    ctaText: 'Contratar Consultoria de Vendas',
-    whatsappMessage: 'Olá! Gostaria de acelerar o time de Vendas e os resultados comerciais da minha empresa.',
-    deliverableCards: [
-      { icon: 'record_voice_over', title: 'Scripts & Abordagens', description: 'Metodologia de negociação para contornar objeções clássicas.' },
-      { icon: 'monitoring', title: 'Funil e CRM Estruturado', description: 'Acompanhamento de oportunidades e taxas de conversão por etapa.' },
-      { icon: 'target', title: 'Metas & Comissionamento', description: 'Estrutura clara de incentivo alinhada à lucratividade real.' }
-    ],
-    metrics: [
-      { value: '+38%', label: 'Ticket Médio de Vendas' },
-      { value: '3.2x', label: 'Velocidade de Fechamento' },
-      { value: '+150%', label: 'Volume de Propostas' }
-    ]
-  },
-  {
-    id: 'financas',
-    pillarNumber: 'Área 04',
-    title: 'Finanças & Controladoria',
-    subtitle: 'Clareza no fluxo de caixa, precificação lúcida e blindagem patrimonial.',
-    description: 'Implementação de rotinas financeiras precisas, DRE gerencial, controle diário de caixa, diagnóstico de margem de contribuição e separação total de finanças pessoais e empresariais.',
+    id: 'gestao-financeira-vendas',
+    pillarNumber: 'Serviço 06',
+    title: 'Consultoria Financeira & Vendas',
+    subtitle: 'Controle de caixa, margem de contribuição e aceleração da esteira comercial.',
+    description: 'Estruturação de rotinas financeiras precisas, DRE gerencial, separação de despesas PF/PJ aliadas à capacitação em vendas consultivas e superação de objeções para fechamento acelerado.',
     icon: 'account_balance',
+    category: 'Finanças & Vendas',
+    imageUrl: 'https://aidesolucoes.com.br/wp-content/uploads/2024/09/5-1.png',
     deliverables: [
       'Controle Financeiro de Pequenos e Médios Negócios',
-      'Manutenção Semanal de Indicadores Financeiros',
-      'Gestão rigorosa de Fluxo de Caixa',
-      'Separação de Confusão Patrimonial PF x PJ',
-      'Previsibilidade orçamentária para expansão'
+      'Fluxo de Caixa gerencial e previsibilidade orçamentária',
+      'Separação rigorosa de patrimônio PF e PJ',
+      'Técnicas de Vendas Consultivas e Encantamento',
+      'Superação de Objeções e Estratégias de Fechamento',
+      'Treinamento de Cross-selling e Up-selling comercial',
+      'Estruturação de metas e comissionamento claro'
     ],
-    ctaText: 'Contratar Gestão Financeira',
-    whatsappMessage: 'Olá! Preciso organizar o setor financeiro e fluxo de caixa da minha empresa com a Aidê.',
+    ctaText: 'Contratar Consultoria Financeira & Vendas',
+    whatsappMessage: 'Olá! Gostaria de contratar a Consultoria em Finanças e Vendas da Aidê Soluções.',
     deliverableCards: [
-      { icon: 'insights', title: 'DRE & Margem Real', description: 'Visibilidade exata de lucro líquido por produto/serviço.' },
-      { icon: 'savings', title: 'Controle de Caixa Semanal', description: 'Rigor nas previsões de entradas e saídas sem surpresas.' },
-      { icon: 'shield', title: 'Separação PF x PJ', description: 'Blindagem financeira com pro-labore estruturado.' }
+      { icon: 'insights', title: 'DRE & Lucro Real', description: 'Clareza exata da margem de contribuição por produto e serviço.' },
+      { icon: 'savings', title: 'Controle de Caixa', description: 'Eliminação de furos financeiros e previsibilidade de expansão.' },
+      { icon: 'trending_up', title: 'Conversão Comercial', description: 'Treinamento de vendas para aumentar o ticket médio e fechar propostas.' }
     ],
     metrics: [
-      { value: '100%', label: 'Controle Financeiro' },
-      { value: '-22%', label: 'Redução de Custos Ociosos' },
-      { value: '12 Meses', label: 'Previsibilidade Orçada' }
-    ]
-  },
-  {
-    id: 'sites',
-    pillarNumber: 'Área 05',
-    title: 'Desenvolvimento Web',
-    subtitle: 'Portais institucionais velozes, e-commerces e páginas prontas para converter.',
-    description: 'Desenvolvimento de sites corporativos modernos, lojas virtuais WooCommerce e landing pages otimizadas para carregamento ultra-rápido, SEO e captação de leads qualificados.',
-    icon: 'devices',
-    deliverables: [
-      'Lojas Virtuais WooCommerce completas',
-      'Sites Institucionais modernos e responsivos',
-      'Landing Pages de Alta Conversão',
-      'Formulários inteligentes e integração com CRM',
-      'Otimização SEO e Produção de Conteúdo Corporativo'
-    ],
-    ctaText: 'Solicitar Orçamento de Site',
-    whatsappMessage: 'Olá! Quero criar um site/landing page de alta conversão para o meu negócio.',
-    deliverableCards: [
-      { icon: 'laptop_mac', title: 'Sites Institucionais', description: 'Design executivo com autoridade e alta credibilidade institucional.' },
-      { icon: 'shopping_bag', title: 'Lojas Virtuais', description: 'E-commerce seguro integrado a meios de pagamento e frete.' },
-      { icon: 'rocket_launch', title: 'Landing Pages', description: 'Páginas de captura focadas 100% em conversão e anúncios.' }
-    ],
-    metrics: [
-      { value: '< 1.2s', label: 'Tempo de Carregamento' },
-      { value: '100%', label: 'Mobile Responsivo' },
-      { value: 'SEO Top', label: 'Indexação no Google' }
-    ]
-  },
-  {
-    id: 'trafego',
-    pillarNumber: 'Área 06',
-    title: 'Tráfego Pago & Performance',
-    subtitle: 'Atração de clientes qualificados todos os dias nas maiores plataformas de anúncio.',
-    description: 'Gestão orientada a retorno financeiro (ROAS e CAC). Criação, segmentação e otimização contínua de campanhas no Meta Ads, Google Ads e LinkedIn Ads.',
-    icon: 'ads_click',
-    deliverables: [
-      'Meta Business (Anúncios no Facebook e Instagram)',
-      'Google Ads (Campanhas de Rede de Pesquisa e Performance Max)',
-      'LinkedIn Ads para prospecção B2B executiva',
-      'YouTube Ads e Remarketing segmentado',
-      'Dashboards de ROI e Custo por Lead em tempo real'
-    ],
-    ctaText: 'Contratar Gestão de Tráfego',
-    whatsappMessage: 'Olá! Desejo alavancar as vendas com Tráfego Pago e Anúncios da Aidê.',
-    deliverableCards: [
-      { icon: 'public', title: 'Meta Ads (Insta & Face)', description: 'Campanhas de atração em massa e captação direta de WhatsApp.' },
-      { icon: 'search', title: 'Google Search & PMax', description: 'Captura de clientes com intenção imediata de compra.' },
-      { icon: 'leaderboard', title: 'Relatórios de ROI', description: 'Transparência total em custo por lead e retorno sobre investimento.' }
-    ],
-    metrics: [
-      { value: '4.8x', label: 'ROAS Médio Alcançado' },
-      { value: '-40%', label: 'Custo por Lead (CPL)' },
-      { value: '24/7', label: 'Aquisição Ativa' }
+      { value: '+38%', label: 'Ticket Médio' },
+      { value: '100%', label: 'Controle de Caixa' },
+      { value: '3.2x', label: 'Velocidade Comercial' }
     ]
   }
 ];

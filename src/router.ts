@@ -9,11 +9,12 @@ import { renderKeynotesBanner } from './components/KeynotesBanner';
 import { renderTestimonials } from './components/Testimonials';
 import { renderFaqSection, initFaqEvents } from './components/FaqSection';
 import { renderDiagnosticForm, initDiagnosticFormEvents } from './components/DiagnosticForm';
-import { renderServicesPage } from './components/ServicesPage';
+import { renderServicesPage, initServicesPageEvents } from './components/ServicesPage';
 import { renderContactPage, initContactPageEvents } from './components/ContactPage';
 import { renderFooter, initFooterEvents } from './components/Footer';
 import { renderWhatsAppFloating } from './components/WhatsAppFloating';
 import { renderStickyConversionBar, initStickyConversionBarEvents } from './components/StickyConversionBar';
+import { initMotionAnimations } from './utils/motion';
 
 export class AppRouter {
   private static appElement: HTMLElement;
@@ -33,7 +34,7 @@ export class AppRouter {
 
     let contentHtml = '';
 
-    if (mainSectionHash === '#solucoes-servicos') {
+    if (mainSectionHash === '#solucoes-servicos' || mainSectionHash === '#servicos') {
       contentHtml = renderServicesPage();
     } else if (mainSectionHash === '#contato') {
       contentHtml = renderContactPage();
@@ -72,9 +73,16 @@ export class AppRouter {
     initFaqEvents();
     initStickyConversionBarEvents();
 
+    if (mainSectionHash === '#solucoes-servicos' || mainSectionHash === '#servicos') {
+      initServicesPageEvents();
+    }
+
     if (mainSectionHash === '#contato') {
       initContactPageEvents();
     }
+
+    // Initialize Framer Motion animations
+    initMotionAnimations();
 
     // Smooth scroll for anchor routes
     const anchorIds = ['como-funciona', 'solucoes', 'sobre-a-aide', 'depoimentos', 'palestras', 'diagnostico', 'por-que-a-aide', 'calculadora-roi', 'faq', 'hero'];
